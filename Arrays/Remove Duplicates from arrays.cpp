@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-//Remove Duplicates
+//Remove Duplicates from sorted array
 
 //Efficient Method
 
@@ -19,25 +19,17 @@ int remDups(int arr[], int n)
 }
 
 int main() {
-	
       int arr[] = {10, 20, 20, 30, 30, 30}, n = 6;
-
       cout<<"Before Removal"<<endl;
-
        for(int i = 0; i < n; i++)
        {
        		cout<<arr[i]<<" ";
        }
-
        cout<<endl;
-
        n = remDups(arr, n);
-
        cout<<"After Removal"<<endl;
-
        for(int i = 0; i < n; i++)
        {
        		cout<<arr[i]<<" ";
        }
-    
 }
