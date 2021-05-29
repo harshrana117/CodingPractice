@@ -20,7 +20,7 @@ int maxSubarraySum(int arr[], int n){
   return res;
 }
 
-//Efficent approach
+//Efficent approach (Kadane's algorithm): We create a new subarray ending with ith element
 
 int maxSubarraySumE(int arr[], int n){
   int maxEnding = arr[0];
