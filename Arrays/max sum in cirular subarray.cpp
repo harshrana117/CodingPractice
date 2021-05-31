@@ -38,6 +38,7 @@ int normalMaxSum(int arr[], int n){
   return res;
 }
 
+
 //Reverses sign of each element in array => finds it's maximum
 //max of negative elements array is min of initial array
 // then substracts from total sum of initial array
