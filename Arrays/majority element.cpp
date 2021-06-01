@@ -2,7 +2,12 @@
 #include <cmath>
 using namespace std;
 
-//Find Majority element
+//Find Majority element: Elements appearing more than n/2 times
+
+//Naive approach: Using two for loops
+
+
+//Efficient approach
 
 int findMajority(int arr[], int n)
 {
