@@ -32,6 +32,7 @@ int maxEvenOddE(int arr[], int n) {
       curr++;
       res = max(res, curr);
     }
+    else curr =1;
   }
   return res;
 }
@@ -40,5 +41,4 @@ int main() {
   int arr[] = {1,2,3,4,-5,2,1,1}, n=7;
   cout<<endl<<maxEvenOdd(arr, n)<<endl;
   cout<<endl<<maxEvenOddE(arr, n)<<endl;
-  cout<<(-5%2);
 }
