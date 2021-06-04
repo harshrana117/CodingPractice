@@ -26,7 +26,7 @@ int firstE(int arr[], int n, int x){
   else if(arr[mid] == x) {
     // while(arr[mid] == x) 
     // {mid--;}
-    if(mid ==0 || arr[mid+1]!=x){
+    if(mid==0 || arr[mid+1]!=x){
       return mid;
     }else{
       low = mid+1;
@@ -48,7 +48,7 @@ int firstER(int arr[], int high, int low, int x){
     return firstER(arr, high, mid+1, x);
   } 
   else if(x==arr[mid]){
-    if (mid==0 || arr[mid]!=arr[mid+1])
+    if (mid==0 || arr[mid]!=arr[mid+1] || mid==n-1)
     return mid;
     else return firstER(arr, high, mid+1,x);
   }
