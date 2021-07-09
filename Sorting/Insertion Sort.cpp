@@ -33,4 +33,4 @@ int main() {
     cout<<arr2[i]<<" ";
   }
   return 0;
-}
+}git 
