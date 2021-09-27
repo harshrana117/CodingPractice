@@ -16,6 +16,8 @@ void childrenSum(Node *root){
 
 }
 
+//for all nodes sum of child nodes == parent node
+
 bool childSum(Node *root) {
   if(root == NULL) return true;
   if(root->left==NULL && root->right==NULL) return true;
